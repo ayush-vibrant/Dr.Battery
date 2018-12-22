@@ -13,7 +13,7 @@ notify2.init("Dr.Battery!!")
 n = notify2.Notification(None, icon = ICON_PATH) 
 
 # set urgency level 
-n.set_urgency(notify2.URGENCY_NORMAL) 
+n.set_urgency(notify2.URGENCY_CRITICAL) 
   
 # set timeout for a notification 
 n.set_timeout(1000) 
